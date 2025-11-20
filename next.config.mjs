@@ -16,16 +16,9 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
-module.exports = {
-  output: "standalone",
-};
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "standalone",
 };
 
-module.exports = nextConfig;
-
+export default nextConfig;
